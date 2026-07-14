@@ -4,24 +4,172 @@
 
 {% block content %}
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        
+             <a class="navbar-brand fw-bold" href="#" style="color: white !important;">
+                <i class="bi bi-mortarboard-fill"></i> EduAgent
+             </a>
+        <div>
+            <a href="#" class="btn btn-light btn-sm me-2">
+                <i class="bi bi-person-circle"></i> Profile
+            </a>
+
+            <a href="/logout" class="btn btn-outline-light btn-sm">
+                Logout
+            </a>
+        </div>
+    </div>
+</nav>
+
+
 <div class="container mt-5">
 
-    <div class="text-center">
+    <!-- Welcome Section -->
+    <div class="p-5 mb-4 bg-light rounded-4 shadow-sm">
 
-        <h1 class="fw-bold text-primary">
-            🎉 Welcome to EduAgent
+        <h1 class="fw-bold">
+            Welcome back 👋
         </h1>
 
         <p class="lead">
-            Login Successful!
+            Your AI-powered learning assistant is ready.
         </p>
 
-        <h4 class="mt-4">
-            More AI features are coming soon...
-        </h4>
+        <p class="text-muted">
+            Explore smart tools to improve your learning experience.
+        </p>
 
     </div>
 
+
+    <!-- Feature Cards -->
+
+    <h3 class="fw-bold mb-4">
+        Learning Tools
+    </h3>
+
+
+    <div class="row g-4">
+
+
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card h-100 shadow-sm border-0">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-robot display-4 text-primary"></i>
+
+                    <h5 class="mt-3 fw-bold">
+                        AI Doubt Solver
+                    </h5>
+
+                    <p class="text-muted">
+                        Ask questions and get instant explanations.
+                    </p>
+
+                    <button class="btn btn-primary">
+                        Coming Soon
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card h-100 shadow-sm border-0">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-file-text display-4 text-success"></i>
+
+                    <h5 class="mt-3 fw-bold">
+                        Notes Summarizer
+                    </h5>
+
+                    <p class="text-muted">
+                        Convert long notes into simple summaries.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Coming Soon
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card h-100 shadow-sm border-0">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-question-circle display-4 text-warning"></i>
+
+                    <h5 class="mt-3 fw-bold">
+                        Quiz Generator
+                    </h5>
+
+                    <p class="text-muted">
+                        Practice with AI-generated quizzes.
+                    </p>
+
+                    <button class="btn btn-warning">
+                        Coming Soon
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card h-100 shadow-sm border-0">
+
+                <div class="card-body text-center">
+
+                    <i class="bi bi-youtube display-4 text-danger"></i>
+
+                    <h5 class="mt-3 fw-bold">
+                        Video Recommendation
+                    </h5>
+
+                    <p class="text-muted">
+                        Find useful learning videos.
+                    </p>
+
+                    <button class="btn btn-danger">
+                        Coming Soon
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
 </div>
+
 
 {% endblock %}
