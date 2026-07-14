@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduAgent</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3" href="#">
+            🎓 EduAgent
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <p class="trusted mt-5">
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+
+                <li class="nav-item ms-3">
+                     <a href="/register" class="btn btn-primary rounded-pill px-4">
+                      Sign Up
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+<section class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+                <span class="badge-ai">
+    🚀 AI Powered Learning Platform
+</span>
+
+                <h1 class="display-4 fw-bold">
+                    Learn Smarter with AI
+                </h1>
+
+                <p class="lead mt-4">
+                    Instant AI tutoring, smart quizzes, note summarization, and curated YouTube resources—all in one place.
+                </p>
+
+                <div class="mt-4">
+
+                    <a href="/login" class="btn btn-primary btn-lg me-3">
+                        Get Started
+                    </a>
+
+                  <a href="#" class="btn btn-outline-primary btn-lg">
+    Learn More
+</a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+
+                <i class="bi bi-robot hero-icon"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     Features Section
+========================= -->
+
+<section class="features py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">Smart Features For Every Learner</h2>
+
+            <p class="text-muted">
+                Powerful AI tools designed to make learning easier and faster.
+            </p>
+
+        </div>
+        <div class="row g-4">
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-robot"></i></div>
+            <h4>AI Tutor</h4>
+            <p>Ask any question and receive clear AI-powered explanations.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-file-earmark-text"></i></div>
+            <h4>Notes Summarizer</h4>
+            <p>Upload notes and generate easy-to-read summaries.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-patch-question"></i></div>
+            <h4>Quiz Generator</h4>
+            <p>Create quizzes automatically from your study material.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-youtube"></i></div>
+            <h4>Video Recommender</h4>
+            <p>Discover the best YouTube videos for your topic.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-graph-up-arrow"></i></div>
+            <h4>Progress Tracker</h4>
+            <p>Track your learning journey and quiz performance.</p>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <div class="feature-card text-center">
+            <div class="feature-icon"><i class="bi bi-map"></i></div>
+            <h4>Study Roadmap</h4>
+            <p>Follow a structured learning path from basics to advanced.</p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+<!-- =========================
+     About Section
+========================= -->
+
+<section class="about py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Left Side -->
+
+            <div class="col-lg-6">
+
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+                     class="img-fluid rounded-4 shadow"
+                     alt="Students Learning">
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="col-lg-6">
+
+                <span class="badge-ai">
+                    About EduAgent
+                </span>
+
+                <h2 class="fw-bold mt-3">
+                    Your Personal AI Learning Companion
+                </h2>
+
+                <p class="mt-4">
+                    EduAgent is an AI-powered learning platform that helps students
+                    understand concepts faster through intelligent explanations,
+                    personalized quizzes, note summarization, and carefully selected
+                    YouTube learning resources.
+                </p>
+
+                <p>
+                    Whether you're preparing for school exams or studying computer
+                    science, EduAgent provides the right learning support whenever
+                    you need it.
+                </p>
+
+                <a href="#" class="btn btn-primary mt-3">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     Statistics Section
+========================= -->
+
+<section class="stats py-5">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <div class="col-md-3 col-6 mb-4">
+
+                <h2 class="counter">500+</h2>
+
+                <p>Students</p>
+
+            </div>
+
+            <div class="col-md-3 col-6 mb-4">
+
+                <h2 class="counter">50+</h2>
+
+                <p>Subjects</p>
+
+            </div>
+
+            <div class="col-md-3 col-6 mb-4">
+
+                <h2 class="counter">10K+</h2>
+
+                <p>AI Responses</p>
+
+            </div>
+
+            <div class="col-md-3 col-6 mb-4">
+
+                <h2 class="counter">95%</h2>
+
+                <p>Success Rate</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     How It Works
+========================= -->
+
+<section class="how-it-works py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge-ai">
+                Simple Process
+            </span>
+
+            <h2 class="fw-bold mt-3">
+                How EduAgent Works
+            </h2>
+
+            <p class="text-muted">
+                Learn smarter in just four simple steps.
+            </p>
+
+        </div>
+
+        <div class="row g-4 text-center">
+
+            <div class="col-md-3">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <i class="bi bi-question-circle step-icon"></i>
+                    <h5>Ask Your Doubt</h5>
+                    <p>Enter any topic or question you want to understand.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <i class="bi bi-robot step-icon"></i>
+                    <h5>Get AI Explanation</h5>
+                    <p>EduAgent explains the topic in simple language.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <i class="bi bi-youtube step-icon"></i>
+                    <h5>Watch Videos</h5>
+                    <p>Receive the best YouTube learning resources.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <i class="bi bi-patch-check step-icon"></i>
+                    <h5>Practice & Improve</h5>
+                    <p>Take quizzes and track your progress.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     Testimonials
+========================= -->
+
+<section class="testimonials py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge-ai">
+                Testimonials
+            </span>
+
+            <h2 class="fw-bold mt-3">
+                What Students Say
+            </h2>
+
+            <p class="text-muted">
+                Loved by students for making learning easier.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="testimonial-card">
+
+                    <p>
+                        "EduAgent helped me understand programming concepts much faster.
+                        The AI explanations are simple and easy to follow."
+                    </p>
+
+                    <h5 class="mt-4">Rahul Kumar</h5>
+
+                    <small>BCA Student</small>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="testimonial-card">
+
+                    <p>
+                        "The quiz generator is amazing.
+                        It helps me prepare for exams every day."
+                    </p>
+
+                    <h5 class="mt-4">Priya Sharma</h5>
+
+                    <small>Class 12 Student</small>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="testimonial-card">
+
+                    <p>
+                        "The YouTube recommendations save a lot of time.
+                        I always find the right learning videos."
+                    </p>
+
+                    <h5 class="mt-4">Arjun Reddy</h5>
+
+                    <small>B.Tech Student</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="cta py-5">
+
+    <div class="container text-center">
+
+        <h2 class="fw-bold">
+            Ready to Start Learning with AI?
+        </h2>
+
+        <p class="mt-3">
+            Join EduAgent and make your learning smarter, faster, and more enjoyable.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg mt-3">
+     Get Started
+</a>
+    
+
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="container text-center">
+
+        <h4>🎓 EduAgent</h4>
+
+        <p>
+            Your Personal AI Learning Companion
+        </p>
+
+        <hr>
+
+        <small>
+            © 2026 EduAgent. All Rights Reserved.
+        </small>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

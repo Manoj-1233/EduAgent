@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#F8FAFC;
+}
+
+.navbar-brand{
+    color:#4F46E5 !important;
+}
+
+.nav-link{
+    font-weight:500;
+    margin-left:20px;
+}
+
+.btn-primary{
+    background:#4F46E5;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#4338CA;
+}
+.hero{
+    padding:100px 0;
+    background:#F8FAFC;
+}
+
+.hero h1{
+    color:#111827;
+    font-weight:700;
+}
+
+.hero p{
+    color:#6B7280;
+    font-size:20px;
+}
+
+.hero-icon{
+    font-size:220px;
+    color:#4F46E5;
+}
+
+.btn{
+    border-radius:50px;
+    padding:12px 28px;
+}
